@@ -4,7 +4,6 @@ Architecture:
    <img src="https://github.com/SreekarJammula/ETL-BigQuery/blob/master/Assets/arch(2).png">
 
 Cloud Storage: Almacenamiento en la nube de datos estructurados y no estructurados. Para el desarrollo del proyecto se usó este servicio para subir los archivos planos como.
-<img src="https://github.com/SreekarJammula/ETL-BigQuery/blob/master/Assets/Screenshot%20(3).png">
 
 BigQuery: Es el repositorio donde se crean las tablas y se sincroniza con la información previamente almacenada en archivo planos para darle una estructura y un sentido a la solución. Cuando los datos ya están cargados se puede explorar la información a través del Lenguaje de Consulta Estructurado SQL.
 El programador de consultas puede activar las secuencias de comandos de python que solicitarán a BigQuery que realice las consultas y luego el resultado se puede almacenar en Google Cloud Storage.
